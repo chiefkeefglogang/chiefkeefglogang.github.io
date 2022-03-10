@@ -1,0 +1,102 @@
+@keyframes anime{
+	0%{background-image:url("store.jpg");background-repeat:no-repeat;}
+	50%{background-image:url("store1.jpg");background-repeat:no-repeat;}
+	100%{background-image:url("store2.jpg");background-repeat:no-repeat;}
+}
+
+#fast_menu{animation-name:anime;
+	animation-duration:17s;
+	animation-timing-function:4s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	width:70%;height:400px;border-radius:30px;border:1px solid black;
+	margin:30px auto;background-size: cover;
+}
+
+#wrapper{
+	width:1300px;margin:0px auto;
+background-color:white;}
+
+body{background-color:#c8b19f}
+
+#header{position:relative;
+height:180px;margin-bottom:5px;
+background-image:url("bagira.png");background-position:top center;
+background-repeat:no-repeat;background-color:#735a4d;}
+	
+
+
+#left{
+height:600px;width:200px;float:left;margin-left:5px;
+background-image:url("background.png");}
+
+#content{height:600px;width:1090;
+float:left;margin-right:5px;
+background-color:#37302c;
+}
+
+#footer{outline:1px solid black;
+height:70px;margin:5px;background:#2f3640;}
+
+#left a{background-color:#211b18;font-family:Arial;border-radius:10px;
+}
+
+li{padding:10px;}
+ul{list-style-type: none;padding:0px;}
+
+.clearfix{
+	clear:both;
+}
+#bold{font:16px "Segoe Ul";font-weight:bold;padding-left:100px;
+color:black;}
+
+#bold a:link,a:visited{
+	color:black; 
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#bold a:hover{
+	color: #E93301;
+	text-decoration: none;
+}
+
+#bold1{font:16px "Segoe Ul";font-weight:bold;
+position:absolute;left:1010px;}
+
+#cart{position:absolute;top:20px;left:1000px;width:170px;
+height:60px;border:1px solid black;
+background-image:url("carimage.png");background-repeat:no-repeat;}
+
+#left a:link,a:visited{
+	color: #fff; 
+	text-decoration: none; 
+	display: block;
+	padding: 5px 5px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+#left a:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #E93301;
+}
+
+
+
+
+
+
+
+.search{display:flex;border:1px solid black;
+	margin-left:10px;margin-right:10px;background:#2f3640;height:40px;
+	border-radius:10px;
+}
+
+.search_txt{border:none;outline:none;
+	background:none;color:white;margin:6px auto;
+}
